@@ -53,6 +53,13 @@ a:hover {
   text-decoration-color: rgb(181, 181, 181);
 }
 
+.name-logo {
+  font-size: 2rem;
+}
+
+.name-logo:hover {
+  cursor: default;
+}
 .league {
   font-family: "League Spartan", sans-serif;
   font-weight: 900;
