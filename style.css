@@ -1,0 +1,17 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: "Montserrat", sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.league {
+  font-family: "League Spartan", sans-serif;
+  font-weight: 900;
+  font-size: 60px;
+}
