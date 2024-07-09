@@ -154,6 +154,10 @@ section {
   margin: auto 0;
 }
 
+.pic-container img {
+  clip-path: circle(48% at center);
+}
+
 .intro-text {
   align-self: center;
   text-align: center;
@@ -164,11 +168,14 @@ section {
 }
 
 .intro-text .p1 {
+  font-size: 1.6rem;
   text-align: center;
+  margin-bottom: 0.2rem;
 }
 
 .intro-text .p2 {
   font-size: 1.8rem;
+  margin-top: 0.2rem;
   margin-bottom: 1rem;
 }
 
@@ -205,6 +212,18 @@ section {
   border-radius: 2rem;
 }
 
+.btn:hover {
+  cursor: pointer;
+}
+.btn-color-1 {
+  border: rgb(53, 53, 53) 0.1rem solid;
+  background: white;
+}
+
+.btn-color-1:hover {
+  background-color: black;
+  color: white;
+}
 .league {
   font-family: "League Spartan", sans-serif;
   font-weight: 900;
