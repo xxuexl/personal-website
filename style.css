@@ -130,6 +130,48 @@ a:hover {
 }
 
 /* Sections */
+
+section {
+  padding-top: 4vh;
+  height: 96vh;
+  margin: 0 10rem;
+  box-sizing: border-box;
+  min-height: fit-content;
+}
+
+/* Profile sections */
+#profile {
+  display: flex;
+  justify-content: center;
+  gap: 5rem;
+  height: 80vh;
+}
+
+.pic-container {
+  display: flex;
+  height: 400px;
+  width: 400px;
+  margin: auto 0;
+}
+
+.intro-text {
+  align-self: center;
+  text-align: center;
+}
+
+.intro-text p {
+  font-weight: 600;
+}
+
+.intro-text .p1 {
+  text-align: center;
+}
+
+.intro-text .p2 {
+  font-size: 1.8rem;
+  margin-bottom: 1rem;
+}
+
 .league {
   font-family: "League Spartan", sans-serif;
   font-weight: 900;
