@@ -84,7 +84,11 @@ a:hover {
   height: 2px;
   background-color: black;
   transition: all 0.3 ease-in-out;
+  /*Original state for the hamburger icon(span)*/
+  transform: none;
+  opacity: 1;
 }
+
 .menu-links {
   position: absolute;
   top: 100%;
@@ -95,6 +99,36 @@ a:hover {
   overflow: hidden;
   transition: all 0.3 ease-in-out;
 }
+
+.menu-links a {
+  display: block;
+  padding: 10px;
+  text-align: center;
+  font-size: 1.5rem;
+  color: black;
+  text-decoration: none;
+  transition: all 0.3 ease-in-out;
+}
+
+.menu-links li {
+  list-style: none;
+}
+
+.menu-links.open {
+  max-height: 300px;
+}
+
+/* State when the icon is clicked and makes an "X"(open) */
+.hamburger-icon.open span:first-child {
+  transform: rotate(45deg) translate(10px, 5px);
+}
+.hamburger-icon.open span:nth-child(2) {
+  opacity: 0;
+}
+.hamburger-icon.open span:last-child {
+  transform: rotate(-45deg) translate(10px, -5px);
+}
+
 .league {
   font-family: "League Spartan", sans-serif;
   font-weight: 900;
