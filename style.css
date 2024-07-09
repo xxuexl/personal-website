@@ -172,6 +172,39 @@ section {
   margin-bottom: 1rem;
 }
 
+.main-name {
+  font-size: 3rem;
+  text-align: center;
+}
+
+#socials-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 1rem;
+  gap: 1rem;
+}
+
+/* Icons */
+.icon {
+  cursor: pointer;
+  height: 2rem;
+}
+
+/*Buttons*/
+.btn-container {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.btn {
+  font-weight: 600;
+  transition: all 300ms ease;
+  padding: 1rem;
+  width: 8rem;
+  border-radius: 2rem;
+}
+
 .league {
   font-family: "League Spartan", sans-serif;
   font-weight: 900;
