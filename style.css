@@ -227,6 +227,15 @@ section {
 
 /* About section */
 
+#about {
+  position: relative;
+}
+.arrow {
+  position: absolute;
+  right: -5rem;
+  bottom: 2.5rem;
+}
+
 .league {
   font-family: "League Spartan", sans-serif;
   font-weight: 900;
