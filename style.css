@@ -230,10 +230,22 @@ section {
 #about {
   position: relative;
 }
+.about-details-container {
+  justify-content: center;
+  flex-direction: column;
+  display: flex;
+}
+.about-pic {
+  border-radius: 2rem;
+}
 .arrow {
   position: absolute;
   right: -5rem;
   bottom: 2.5rem;
+}
+.section-container {
+  gap: 4rem;
+  height: 80%;
 }
 
 .league {
